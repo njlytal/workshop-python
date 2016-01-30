@@ -1,0 +1,58 @@
+NOTES FOR PYTHON SEMINAR: DAY 1
+
+
+Handy commands:
+
+"amarillo"[2:] # Returns 3rd character to end of string
+"amarillo"[:4] # Returns from start to 5th character of string
+
+
+Type "if True:"
+and Python will automatically indent for you to continue the expression
+# Pressing Enter when on an empty line will submit the statement.
+
+# Interesting things happen here...
+In [19]: day = "Friday"
+
+In [20]: x = 8
+
+In [21]: x and day
+Out[21]: 'Friday'
+
+In [22]: day and x
+Out[22]: 8
+
+In [23]: day or x
+Out[23]: 'Friday'
+
+In [24]: x or day
+Out[24]: 8
+
+# Furthermore...
+In [25]: bool(())
+Out[25]: False
+
+In [26]: bool((0))
+Out[26]: False
+
+In [27]: bool((0,0))
+Out[27]: True
+
+In [28]: bool([0])
+Out[28]: True
+
+# RAISE EXCEPTION
+raise Exception("wow")
+
+# WOW! CHECK THIS!
+
+nums = range(10)
+
+for num in nums:
+    print(num)
+
+# This will actually read the contents of nums! WHOA!
+# Also works for...
+
+for n in nums:
+    print(n)

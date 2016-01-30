@@ -1,0 +1,48 @@
+print("Let's try this out")
+1-4
+2/5
+1/3
+3^4
+3^5
+3^6
+6^3
+6^2
+6^5
+6^6
+6^7
+4^4
+type(2+5/2)
+type(1+3 *2.0)
+type(5^5)
+type(TRUE)
+type(True)
+type(TRUE
+)
+type(True*2)
+True*2
+True == False
+type("stringy")
+"hand" + "shake"
+'abcd'[0]
+'abcd'[3]
+T
+"abcdefg"[4]
+input("What is your name? ")
+input("What is your name? ")
+type(1+1)
+type(3,4,5)
+type("1","3")
+type("1","3", "5")
+type("1")
+(1, 3)
+type((2,2))
+type((2,2,5,7))
+type((2,2,"cat",7))
+[0,1,2]
+type([0,1,2])
+[0,3,"Dog"]
+hist
+%hist?
+%hist ?
+%history?
+%history -f history.txt
